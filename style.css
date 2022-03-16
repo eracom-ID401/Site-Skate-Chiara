@@ -1,0 +1,74 @@
+/* HEADER */
+
+.mainhead{
+    background-image: url(source/poparthead.jpeg);
+    color: white;
+    text-align: center;
+}
+
+nav{
+    min-height: 15.02vh;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+.liste{
+    display: flex;
+    flex: 1 1 40 rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo{
+    flex: 1 1 40 rem;
+    padding: 2rem;
+}
+
+/* BODY */
+
+h1{
+    font-size: 2.6rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+li{
+    font-size: 2rem;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.img1{
+    padding: 3px;
+    max-width: 100px;
+}
+
+.p1{
+    font-size: 20px;
+    width: 20rem;
+    padding: 3px;
+}
+
+body{
+    position: relative /* force it to contain absolutely positioned children */
+}
+
+div#holiday-ornament {
+    background: url("http://www.americanchic.net/website_graphics/test_ornament.png") no-repeat;
+    width: 160px; /*set the width and height to the width and height of the image */
+    height: 250px;
+    text-indent: -9999px; /* Move the text inside of the div off screen. Still readable for text-readers for the blind */
+  
+    position: absolute;
+    left: 5%; /* Play around with the left attribute until it's placed where you want it */
+    top: -25px; /*Your site has a strange top margin to its body element. Changing the top to a negative value compensates for it */
+  }
+s
