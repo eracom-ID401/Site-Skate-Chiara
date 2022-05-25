@@ -1,74 +1,49 @@
-/* HEADER */
 
-.mainhead{
-    background-image: url(source/poparthead.jpeg);
+header{
+    background-color: #6273D0;
     color: white;
-    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
 }
 
-nav{
-    min-height: 15.02vh;
+.back{
     display: flex;
-    align-items: center;
-    width: 95%;
-    margin: auto;
+    justify-content: space-between;
+    font-size: 2rem;
 }
 
-.liste{
-    display: flex;
-    flex: 1 1 40 rem;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
+a{
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+    margin-left: 30rem;
+    margin-top: 30rem;
+}
+
+h2{
+    margin-left: 20px;
+    font-size: 2rem;
 }
 
 #logo{
-    flex: 1 1 40 rem;
-    padding: 2rem;
-}
-
-/* BODY */
-
-h1{
-    font-size: 2.6rem;
-}
-
-html{
-    font-size: 62.5%;
-}
-
-li{
-    font-size: 2rem;
-    
-}
-a{
-    color: white;
-    text-decoration: none;
-}
-
-.img1{
-    padding: 3px;
-    max-width: 100px;
-}
-
-.p1{
-    font-size: 20px;
-    width: 20rem;
-    padding: 3px;
-}
-
-body{
-    position: relative /* force it to contain absolutely positioned children */
-}
-
-div#holiday-ornament {
-    background: url("http://www.americanchic.net/website_graphics/test_ornament.png") no-repeat;
-    width: 160px; /*set the width and height to the width and height of the image */
-    height: 250px;
-    text-indent: -9999px; /* Move the text inside of the div off screen. Still readable for text-readers for the blind */
-  
+    opacity: 80%;
     position: absolute;
-    left: 5%; /* Play around with the left attribute until it's placed where you want it */
-    top: -25px; /*Your site has a strange top margin to its body element. Changing the top to a negative value compensates for it */
-  }
-s
+    margin-left: 15rem;
+}
+
+.phome{
+    color: rgba(24, 33, 82, 1);
+    font-size: 2rem;
+    width: 30rem;
+    padding: 3rem;
+    margin-top: 20rem;
+}
+
+.image1{
+    display: flex;
+    margin-top: 30rem;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
